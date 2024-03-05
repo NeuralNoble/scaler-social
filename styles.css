@@ -1,0 +1,153 @@
+
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 0.5px solid black;
+    padding: 0 20px;
+    background-color:white;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.sst-logo {
+    height: 50px;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.container {
+    
+    max-width: 650px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card {
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    
+    border-radius: 5px;
+    background-color: white;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+  
+
+.card button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    margin-right: 10px;
+}
+
+#post-form {
+    margin-bottom: 20px;
+
+}
+
+#tweet-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    
+    border-radius: 10px;
+
+}
+
+.comment {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.delete-button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+#postbutton {
+    background: blueviolet;
+    border: none;
+    height: 35px;
+    width: 75px;
+    border-radius: 50px;
+
+
+}
+
+#feed{
+    margin: 30px;
+    text-align: center;
+    font-size: 29px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .profile-username {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  
+  
+ 
+
+@keyframes likeAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
